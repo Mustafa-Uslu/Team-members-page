@@ -58,6 +58,7 @@ body{
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
+    /* border: 1px solid red; */
 }
 .img{
     border-radius: 5px;
@@ -81,8 +82,11 @@ body{
 }
 .f5{
     margin-top: 70px;
-    width: 280px;
-    height: 440px;
+  
+}
+.f5 >img{
+    width: 200px;
+    height: 290px;
 }
 @media screen and (max-width:1129px){
     .f5{
